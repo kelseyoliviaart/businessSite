@@ -1,0 +1,76 @@
+#page{
+background-color: #f295cd;
+background-image:url (".images/snackattack.jpg");
+}
+.wrapper{
+    width:720px;
+    margin: 0px auto;
+}
+.header{
+    margin:40px 0px 20px 0px;
+}
+.container{
+    padding:10px;
+}
+.entry{
+    
+    width: 220px;
+    float:left;
+    margin: 10px;
+    height: 198px;
+    background-position: bottom;
+}
+figure{
+    display:block;
+    width:202px;
+    height:170px;
+    background-color: #b9f057;
+    margin:0px;
+    padding:10px;
+    text-align: left;
+    /*background-image: url(gummies.jpg);*/
+}
+figure img{
+    /*display:none;*/
+    /* take this out when i want images to show*/
+    width:200px;
+    height: 150px;
+    border:1px solid #090303;
+}
+figcaption{
+    background-image: url ("images.icon.png") no-repeat;
+    padding-left: 20px;
+}
+@media all and (max-width: 960px){
+    body{
+         background-color: orange;
+        }
+    }
+@media all and max-width:(481px){
+    body{
+        background-color: green;
+        }
+    }
+.image{
+    width:380px;
+    height:380px;
+    position:relative;
+    float:left;
+    margin:10px auto;
+    background-color: #5295cd;
+}
+#gummies{
+    background-image: url(images/gummies.jpg);
+}
+#pizza{
+    background-image: url(images/pizza.jpg);
+}
+#whiskey{
+    background-image: url(images/whiskey.jpg);
+}
+#gummies{
+    background-image: url(images/haribo.jpg);
+}
+#beer{
+    background-image: url(images/snackattack.jpg);
+}
