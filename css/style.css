@@ -1,4 +1,5 @@
-#page{
+
+body{
 background-color: #f295cd;
 background-image:url (".images/snackattack.jpg");
 }
@@ -11,6 +12,7 @@ background-image:url (".images/snackattack.jpg");
 }
 .container{
     padding:10px;
+    background-color: #f295cd;s
 }
 .entry{
     
@@ -20,23 +22,24 @@ background-image:url (".images/snackattack.jpg");
     height: 198px;
     background-position: bottom;
 }
-figure{
-    display:block;
-    width:202px;
-    height:170px;
+
+.panel { 
+margin-bottom: 20px;
+}
+.panel-body {
     background-color: #b9f057;
-    margin:0px;
-    padding:10px;
-    text-align: left;
-    /*background-image: url(gummies.jpg);*/
+    border:1px solid #b9f057;
 }
-figure img{
-    /*display:none;*/
-    /* take this out when i want images to show*/
-    width:200px;
-    height: 150px;
-    border:1px solid #090303;
+.button{
+background: #ed7cee;
 }
+.slide img{
+    width: 100%;
+}
+.snack{
+    background-color:#f295cd;
+}
+
 figcaption{
     background-image: url ("images.icon.png") no-repeat;
     padding-left: 20px;
@@ -59,18 +62,19 @@ figcaption{
     margin:10px auto;
     background-color: #5295cd;
 }
-#gummies{
-    background-image: url(images/gummies.jpg);
+.form-group{
+
 }
-#pizza{
-    background-image: url(images/pizza.jpg);
+.form-control{
+    
 }
-#whiskey{
-    background-image: url(images/whiskey.jpg);
-}
-#gummies{
-    background-image: url(images/haribo.jpg);
-}
-#beer{
-    background-image: url(images/snackattack.jpg);
+.jumbotron{
+    background: none;
+    position: relative;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  width: 504px;
+  height: 78px;
+  padding: 0px !important;
 }
